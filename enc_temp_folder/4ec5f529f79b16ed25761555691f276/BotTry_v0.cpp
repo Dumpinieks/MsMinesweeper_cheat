@@ -74,7 +74,7 @@ int main()
 			printField(x, y, (LPWORD)FIELD_PLACE_IN_MEMORY, phandle);
 			std::cout << "To refresh field,  press any key\n";
 			std::cout << "If you want quit, press q\n";
-			std::cout << "To make bombs unclickable, press p\n";
+			std::cout << "To place marks on field of minesweeper, press p\n";
 			std::cin.get(comm);
 		} while (comm);
 	}
